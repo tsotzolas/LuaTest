@@ -1,0 +1,9 @@
+Has anyone recently intergrated LUA into IntelliJ IDEA? - Newbie ...
+https://forums.coronalabs.com › Getting Started › Newbie Questions
+Jan 11, 2013 - 8 posts - ‎4 authors
+... any IDEs for Windows, Ive been trying to integrate LUA SDK into IntelliJ ... of IntelliJ when I go to plugin settings and when I manually install it, ...
+IntelliJ or any other IDE? - General Questions/Discussion	5 Apr 2017
+Using idea intellij with Corona - General Questions/Discussion ...	11 Apr 2016
+Anyone figured out how to configure INTELLIJ IDEA to use the ...	4 May 2011
+My Work On a Lua IDE - Lua Language	25 Sep 2010
+More results from forums.coronalabs.com
