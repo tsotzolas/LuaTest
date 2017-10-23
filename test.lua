@@ -8,5 +8,17 @@ local function read_file(path)
     return content
 end
 
+
+local function find_text(str)
+    return string.find(str, "188.4.78.");
+end
+
 local fileContent = read_file("test.txt");
-print (fileContent);
+--print (fileContent);
+print ("------------------------");
+--print(string.find(fileContent, "188.4.78.196"));
+print ("------------------------");
+print(string.sub(fileContent, find_text(fileContent)+16,23));
+print ("------------------------");
+--print(string.match(fileContent,"188.4.78.196........."));
+
