@@ -1,3 +1,11 @@
+--
+-- Created by IntelliJ IDEA.
+-- User: tsotzo
+-- Date: 23/11/2017
+-- Time: 11:13 μμ
+-- To change this template use File | Settings | File Templates.
+--
+
 local open = io.open
 
 local function read_file(path)
@@ -14,14 +22,14 @@ local function find_text(str)
 end
 
 local fileContent = read_file("test.txt");
+
 --print (fileContent);
 print ("------------------------");
-print(fileContent);
+for line in io.lines("test.txt") do
+    print(line);
+end
 print ("------------------------");
 --print(string.sub(fileContent, find_text(fileContent)+16,23));
-print ("------------------------");
+--print ("------------------------");
 --print(string.match(fileContent,"188.4.78.196........."));
-
-
-
 

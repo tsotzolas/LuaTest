@@ -1,3 +1,2 @@
-188.4.78.196   ,server1
-192.168.1.2    ,server2
-192.168.001.002,server2
+server1
+server2
